@@ -1,1 +1,528 @@
-<h3>Sowmya Weds Prasad</h3>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Aladin&display=swap" rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <title>Sowmya Weds Prasad</title>
+  <style>
+    body {
+      font-family: 'Aladin', cursive;
+      background-color: white;
+      color: #3C403D;
+    }
+
+    .carousel {
+      min-height: 55vh;
+    }
+
+    .carousel-img {
+      width: 100%;
+      height: 55vh;
+    }
+
+    .wed-title {
+      display: none;
+    }
+
+    .wed-title_mob {
+      font-size: 2.5rem;
+    }
+
+    .wed-title_mob p {
+      margin: 0;
+      line-height: 6vh;
+    }
+
+    .save_img_block {
+      text-align: center;
+    }
+
+    .save_img {
+      height: 24vh;
+    }
+
+    .grey-bg {
+      background: rgb(33, 33, 33);
+    }
+
+    .card {
+      color: white;
+      background: rgb(33, 33, 33);
+    }
+
+    .white {
+      background-color: #fff;
+    }
+
+    .main-event-icon {
+      width: auto;
+      height: auto;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .hr_section {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(38, 50, 56);
+    }
+    
+    .carousel-inner {
+      height: inherit;
+    }
+
+    @media (min-width:641px) {
+      .carousel {
+        min-height: 70vh;
+      }
+
+      .carousel-img {
+        height: 70vh;
+      }
+
+      .wed-title {
+        font-size: 3.5rem;
+        margin: 0;
+        display: block;
+      }
+
+      .wed-title_mob {
+        display: none;
+      }
+
+      .save_img {
+        height: 21vh;
+      }
+    }
+
+    @media (min-width:1025px) {
+      .carousel {
+        min-height: 86vh;
+      }
+
+      .carousel-img {
+        height: 86vh;
+      }
+
+      .wed-title {
+        font-size: 4.5rem;
+      }
+
+      .save_img {
+        display: none;
+      }
+      
+      .hr-none {
+        display: none;
+      }
+    }
+  </style>
+  <style>
+    /* time line start */
+    .timeline {
+      list-style: none;
+      padding: 20px 0 20px;
+      position: relative;
+    }
+  
+    .timeline:before {
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      content: " ";
+      width: 1px;
+      background-color: #d4d4d4;
+      left: 50%;
+      margin-left: 0px;
+    }
+  
+    @media screen and (max-width: 480px) {
+      .timeline:before {
+        margin-left: -64px;
+      }
+    }
+  
+    .timeline>li {
+      margin-bottom: 20px;
+      position: relative;
+    }
+  
+    .timeline>li:before,
+    .timeline>li:after {
+      content: " ";
+      display: table;
+    }
+  
+    .timeline>li:after {
+      clear: both;
+    }
+  
+    .timeline>li>.timeline-panel {
+      width: 40%;
+      float: left;
+      border: 1px solid #d4d4d4;
+      padding: 30px;
+      position: relative;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      -ms-border-radius: 4px;
+      border-radius: 4px;
+    }
+  
+    .timeline>li>.timeline-panel:before {
+      position: absolute;
+      top: 80px;
+      right: -15px;
+      display: inline-block;
+      border-top: 15px solid transparent;
+      border-left: 15px solid #ccc;
+      border-right: 0 solid #ccc;
+      border-bottom: 15px solid transparent;
+      content: " ";
+    }
+  
+    .timeline>li>.timeline-panel:after {
+      position: absolute;
+      top: 81px;
+      right: -14px;
+      display: inline-block;
+      border-top: 14px solid transparent;
+      border-left: 14px solid #fff;
+      border-right: 0 solid #fff;
+      border-bottom: 14px solid transparent;
+      content: " ";
+    }
+  
+    @media screen and (max-width: 480px) {
+      .timeline>li>.timeline-panel {
+        width: 75% !important;
+      }
+  
+      .timeline>li>.timeline-panel:before {
+        top: 30px;
+      }
+  
+      .timeline>li>.timeline-panel:after {
+        top: 31px;
+      }
+    }
+  
+    .timeline>li>.timeline-badge {
+      background-size: cover;
+      background-position: top center;
+      background-repeat: no-repeat;
+      position: relative;
+      color: #fff;
+      width: 160px;
+      height: 160px;
+      line-height: 50px;
+      font-size: 1.4em;
+      text-align: center;
+      position: absolute;
+      top: 16px;
+      left: 50%;
+      margin-left: -80px;
+      background-color: #999999;
+      z-index: 100;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      border-radius: 50%;
+    }
+  
+    @media screen and (max-width: 480px) {
+      .timeline>li>.timeline-badge {
+        width: 60px;
+        height: 60px;
+        margin-left: -20px !important;
+      }
+    }
+  
+    .timeline>li.timeline-inverted>.timeline-panel {
+      float: right;
+    }
+  
+    .timeline>li.timeline-inverted>.timeline-panel:before {
+      border-left-width: 0;
+      border-right-width: 15px;
+      left: -15px;
+      right: auto;
+    }
+  
+    .timeline>li.timeline-inverted>.timeline-panel:after {
+      border-left-width: 0;
+      border-right-width: 14px;
+      left: -14px;
+      right: auto;
+    }
+  
+    .timeline-title {
+      margin-top: 0;
+    }
+  
+    .date {
+      display: block;
+      margin-bottom: 20px;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  
+    .timeline-body>p,
+    .timeline-body>ul {
+      margin-bottom: 0;
+    }
+  
+    .timeline-body>p+p {
+      margin-top: 5px;
+    }
+  
+    @media (max-width: 992px) {
+      ul.timeline:before {
+        left: 90px;
+      }
+  
+      ul.timeline>li>.timeline-panel {
+        width: calc(100% - 200px);
+        width: -moz-calc(100% - 200px);
+        width: -webkit-calc(100% - 200px);
+      }
+  
+      ul.timeline>li>.timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+      }
+  
+      ul.timeline>li>.timeline-panel {
+        float: right;
+      }
+  
+      ul.timeline>li>.timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+      }
+  
+      ul.timeline>li>.timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+      }
+    }
+  
+    /* time line end */
+  </style>
+</head>
+
+<body>
+  <div class="cover-container wedding-container">
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="3000">
+          <img src="images/_DSC3529-153.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/_DSC3689-166.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/5I2A0584-119.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/5I2A0341-94.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/5I2A1050-152.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/_DSC2955-80.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/_DSC3191-126.jpg" class="carousel-img" alt="carousel image">
+        </div>
+        <div class="carousel-item" data-interval="3000">
+          <img src="images/5I2A0768-138.jpg" class="carousel-img" alt="carousel image">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="save_img_block">
+      <img src="images/save the date.png" class="save_img">
+    </div>
+    <hr class="hr_section m-0 mx-5 hr-none">
+    <div class="cover-container blog-header py-3">
+      <div class="row flex-nowrap justify-content-between align-items-center m-0">
+        <div class="col-lg-3 col-2 text-center">
+          <a class="btn btn-sm btn-outline-secondary" href="#stories">Stories</a>
+        </div>
+        <div class="col-lg-6 col-8 text-center">
+          <p class="wed-title">Sowmya Weds Prasad</p>
+          <div class="wed-title_mob">
+            <p style="text-align: left;">Sowmya</p>
+            <p style="text-align: center;">Weds</p>
+            <p style="text-align: right;">Prasad</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-2 text-center">
+          <a class="btn btn-sm btn-outline-secondary" href="#events">Events</a>
+        </div>
+      </div>
+    </div>
+    <hr class="hr_section mt-3 mb-4 mx-5">
+    <div id="stories">
+      <h2 class="text-center">Stories</h2>
+      <div class="col-md-12 col-md-offset-0">
+        <ul class="timeline animate-box">
+          <li class="animate-box">
+            <div class="timeline-badge" style="background-image:url(images/first_fav_pic.jpeg);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">First We Met</h3>
+                <span class="date font-weight-bold grey-700">Sat, 20 June, 2020</span>
+              </div>
+              <div class="timeline-body">
+                <p class="grey-700">It was love at first sight. If we could only control the time, We will go back to
+                  the moment when we both first met, not to change anything, but to experience it all over again!</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted animate-box">
+            <div class="timeline-badge" style="background-image:url(images/engagement_pic.jpeg);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Engagement</h3>
+                <span class="date font-weight-bold grey-700">Sun, 22 Nov, 2020</span>
+              </div>
+              <div class="timeline-body">
+                <p class="grey-700">Some knots are meant to be tied forever. Here is our sweet and smooth journey
+                  towards eternity holding each other's hand. Two souls with but a single thought; two hearts that
+                  started beating as one.</p>
+              </div>
+            </div>
+          </li>
+          <li class="animate-box">
+            <div class="timeline-badge" style="background-image:url(images/reception.jpg);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3 class="timeline-title">Wedding...</h3>
+                <span class="date font-weight-bold grey-700">Sun, 25 Apr, 2021</span>
+              </div>
+              <div class="timeline-body">
+                <p class="grey-700">The best part of the life is spending each and every day with the fiance, Going on a
+                  date, shopping your wedding dress, preparing your wedding vows with the excitement and eagerness of
+                  waiting for the big day!</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <hr class="hr_section my-4 mx-5">
+    <div id="events">
+      <h2 class="text-center">Events</h2>
+      <div class="row justify-content-center mt-1 ml-1 mr-1">
+        <div class="card grey-bg text-center justify-content-center m-3 p-2 col-xs-12 col-md-5">
+          <div class="card_title">
+            <br>
+            <h2 class="main-events-title text-center">Reception</h2>
+          </div>
+          <hr class="white">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-6 justify-content-center">
+                <span class="main-event-icon fa fa-clock-o"></span>
+                <br>
+                <br>
+                <span class="font-weight-bold mt-2">
+                  07:30 pm
+                </span>
+              </div>
+              <div class="col-6 justify-content-center">
+                <span class="main-event-icon fa fa-calendar"></span>
+                <br>
+                <br>
+                <span class="font-weight-bold mt-2">
+                  Sat, 24 Apr, 2021
+                </span>
+              </div>
+              <br>
+            </div>
+            <p class="m-2 mt-4">
+              Saraswati Kalyana Mantapa, Doddoni Road, Koteshwara, Kundapura Tq
+            </p>
+          </div>
+        </div>
+        <div class="card grey-bg text-center justify-content-center m-3 p-2 col-xs-12 col-md-5">
+          <div class="card_title">
+            <br>
+            <h2 class="main-events-title text-center">Wedding</h2>
+          </div>
+          <hr class="white">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-6 justify-content-center">
+                <span class="main-event-icon fa fa-clock-o"></span>
+                <br>
+                <br>
+                <span class="font-weight-bold mt-2">
+                  10 am
+                </span>
+              </div>
+              <div class="col-6 justify-content-center">
+                <span class="main-event-icon fa fa-calendar"></span>
+                <br>
+                <br>
+                <span class="font-weight-bold mt-2">
+                  Sun, 25 Apr, 2021
+                </span>
+              </div>
+              <br>
+            </div>
+            <p class="m-2 mt-4">
+              Saraswati Kalyana Mantapa, Doddoni Road, Koteshwara, Kundapura Tq
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr class="hr_section my-4 mx-5">
+    <div class="text-center mb-3">
+      <h2 class="main-events-title mb-4">Location</h2>
+      <!-- <h3 class="text-center"><a target="_blank" href="https://goo.gl/maps/yqDZXVkvFtqU7wABA">Click Me</a></h3> -->
+      <iframe width="90%" height="300px" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15512.653176182022!2d74.6942301!3d13.5868336!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x8dd53eb317bdbeb4!2sSaraswati%20Kalyana%20Mantapa!5e0!3m2!1sen!2sin!4v1615835230763!5m2!1sen!2sin" style="border:0; margin: 0 5%;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
