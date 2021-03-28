@@ -1,0 +1,102 @@
+body {
+    font-family: 'Aladin', cursive;
+    background-color: white;
+    color: #3C403D;
+  }
+
+  .carousel {
+  }
+
+  .carousel-img {
+    width: 100%;
+    height: 450px;
+    height: 58vh;
+  }
+
+  .wed-title {
+    display: none;
+  }
+
+  .wed-title_mob {
+    font-size: 2rem;
+  }
+
+  .wed-title_mob p {
+    margin: 0;
+    line-height: 4vh;
+    padding-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  .save_img_block {
+    text-align: center;
+  }
+
+  .save_img {
+    height: 22vh;
+  }
+
+  .grey-bg {
+    background: rgb(33, 33, 33);
+  }
+
+  .card {
+    color: white;
+    background: rgb(33, 33, 33);
+  }
+
+  .white {
+    background-color: #fff;
+  }
+
+  .main-event-icon {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .hr_section {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(38, 50, 56);
+  }
+
+  @media (min-width:641px) {
+    .carousel-img {
+      width: 100%;
+      height: 675px;
+      height: 68vh;
+    }
+    .wed-title {
+      font-size: 3.5rem;
+      margin: 0;
+      display: block;
+    }
+
+    .wed-title_mob {
+      display: none;
+    }
+
+    .save_img {
+      height: 21vh;
+    }
+  }
+
+  @media (min-width:1025px) {
+    .carousel-img {
+      width: 100%;
+      height: 700px;
+      height: 84vh;
+    }
+    .wed-title {
+      font-size: 4.5rem;
+    }
+    .save_img {
+      display: none;
+    }
+    
+    .hr-none {
+      display: none;
+    }
+  }
